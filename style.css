@@ -1,0 +1,63 @@
+
+.s {
+    font-size: 1.2em;
+    
+}
+h2 { 
+   text-align: center;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgba(15, 6, 48, 0.534);
+    margin: 75px;
+    padding: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(0, 47, 255, 0.246);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(38, 5, 184)
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(65, 5, 145);
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(169, 109, 219);
+}
+
+.pullquote {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 5, 145);
+    color: white;
+}
